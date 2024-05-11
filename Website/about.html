@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santosh Public School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://kit.fontawesome.com/9e6a6707dd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-------------------------------------------------------Header--------------------------------------------------------->
+    <section class="sub-header">
+        <nav>
+            <a href="op.html"><img src="real.png"></a>
+            <div class="nav-links" id="navLinks">
+                <span class="material-symbols-outlined" onclick="hideMenu()">
+                    close
+                </span>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="ad.html">ADMISSION</a></li>
+                    <li> <a href="info.html">INFO</a></li>
+                    <li> <a href="contact.htmls">CONTACT</a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-outlined" onclick="showMenu()">
+                menu
+            </span>
+
+            <img class="menu" src="men.png">
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!--------------------------ABOUT US CONTENT-->
+<section class="aboutc">
+
+<div class="row">
+    <div class="about-col">
+        <h1>Welcome to Santosh Public School</h1>
+    <p>Where we foster a dynamic learning environment dedicated to academic excellence, character development, and holistic growth. With a commitment to nurturing each student's potential, we strive to inspire a lifelong love for learning and prepare our students to excel in a rapidly changing world.</p>
+    <a href="#" class="hero-btn3">EXPLORE NOW</a>
+
+
+</div>
+    <div class="about-col">
+        <img src="abo.png" alt="error"
+    </div>
+</div>
+
+
+
+
+
+
+</section>
+
+    <!-----------------Footer----------------------->
+
+
+    <footer>
+        <div class="contain">
+         <div class="foot-col">
+             <img src="new.PNG">
+         </div>
+         <div class="foot-col">
+             <h3>CONTACT US</h3>
+             <p><span>Email</span>: forgeinfo@gmail.com</p>
+             <p><span>Phone </span>: 01+ 0000000000</p>
+             <p><span>Address</span> : United Kingdom</p>
+         </div>
+          <div class="foot-col">
+             <h3 class="site">SITE MAPS</h3>
+             <ul class="list">
+                 <li><a href="index.html"> HOME</a></li>
+                 <li><a href="about.html"> ABOUT</a></li>
+                 <li><a href="ad.html"> ADMISSION</a></li>
+                 <li><a href="info.html"> INFO</a></li>
+                 <li><a href="contact.html"> CONTACT</a></li>
+             </ul>
+          </div>
+          <div class="foot-col">
+             <h3>SOCIAL LINKS </h3>
+             <ul class="social">
+             <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+             <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+             <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+             <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+             </ul>
+ 
+          </div>
+          
+        </div> 
+        <div class="bottom-bar">
+         <p>&copy; 2023 Forge University.All rights reserved.</p>
+      </div>
+     </footer>
+ 
+
+
+    <!---------Javascrpt for toggle menu---------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.left = "0";
+        }
+        function hideMenu() {
+            navLinks.style.left = "-200px";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+body {
+    margin-left: 50px;
+    margin: 0px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url('heyyy.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    top: 3%;
+    left: 1%;
+}
+
+.head {
+
+    margin-top: 5%;
+    font-size: 2rem;
+    font-family: "poppins", sans-serif;
+}
+
+.design {
+    background-color: transparent;
+    border: 1px solid #126062;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 40px #000000;
+}
+
+
+.labels
+{
+	font-family:'Poppins', sans-serif;
+	color:#FFF;
+	font-size:16px;
+	
+}
+
+.hr {
+    width: 80%;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #FFF;
+    
+}
+
+.shead {
+    color: #28f8ff;
+    margin-top: 4.2%;
+    font-size: 1.5rem;
+    font-family: "poppins", sans-serif;
+    margin-bottom: 2%;
+}
+.fields
+{
+	font-family:'Poppins', sans-serif;
+	font-size:14px;
+	padding:2px 5px;
+	color:#9FF;
+	background-color:transparent;
+	border:1px solid #00eeff;
+	border-radius:5px;
+}

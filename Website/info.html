@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santosh Public School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://kit.fontawesome.com/9e6a6707dd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="ex">
+    <!-------------------------------------------------------Header--------------------------------------------------------->
+    <section class="sub-header-admin-i">
+        <nav>
+            <a href="op.html"><img src="real.png"></a>
+            <div class="nav-links" id="navLinks">
+                <span class="material-symbols-outlined" onclick="hideMenu()">
+                    close
+                </span>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="ad.html">ADMISSION</a></li>
+                    <li> <a href="info.html">INFO</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-outlined" onclick="showMenu()">
+                menu
+            </span>
+
+            <img class="menu" src="men.png">
+        </nav>
+        <h1>Information </h1>
+    </section>
+
+<!----------ADMISSION INFO------------------------------------>
+<section class="tb">
+    <table>
+        <thead>
+         <tr>
+             <th colspan="2"><span>Visiting Hours</span></th>
+         </tr>
+         <tr>
+             <td><i class="fa-solid fa-pen-to-square"></i> Principal</td>
+             <td>10:30am - 11 am by  <b>Appointment </b> </td>
+         </tr>
+         <tr>
+             <td rowspan="1"><i class="fa-solid fa-pen-to-square"></i>Teachers</td>
+             <td>7:30 a.m. to 8 a.m. at reception</td>
+         </tr>
+        
+         <tr>
+             <td><i class="fa-solid fa-pen-to-square"></i>Admin Office</td>
+             <td> 8 .00 am to 12 noon</b></td>
+         </tr>
+         
+         <tr>
+
+         </tr>
+        </thead>
+
+     </table>
+</section>
+
+
+<!-----------------------------DATA-->
+<section class="data">
+<div class="in">
+    <h1>School Session </h1>
+    <p>The school session starts from 1st April and ends on 31st March</p>
+</div>
+
+<div class="in">
+    <h1>School Timmings </h1>
+    <p> 7:45 a.m. - 2:00 p.m for Classes I - VIII </p>
+</div>
+
+<div class="in">
+    <h1>School Uniform </h1>
+    <p> No student is allowed to enter the school without uniform.It is available on the school uniform counter.</p>
+</div>
+
+<div class="in">
+    <h1>Parent Teacher Meetings </h1>
+    <p> For all round development of the child,regular communication between parents and teacher is highly useful.Hence ,Half an hour has been reserved daily for Meeting   with teacher individually.  </p>
+
+
+
+
+</section>
+    <!-----------------Footer----------------------->
+
+
+    <footer>
+        <div class="contain">
+         <div class="foot-col">
+             <img src="new.PNG">
+         </div>
+         <div class="foot-col">
+             <h3>CONTACT US</h3>
+             <p><span>Email</span>: forgeinfo@gmail.com</p>
+             <p><span>Phone </span>: 01+ 0000000000</p>
+             <p><span>Address</span> : United Kingdom</p>
+         </div>
+          <div class="foot-col">
+             <h3 class="site">SITE MAPS</h3>
+             <ul class="list">
+                 <li><a href="index.html"> HOME</a></li>
+                 <li><a href="about.html"> ABOUT</a></li>
+                 <li><a href="ad.html"> ADMISSION</a></li>
+                 <li><a href="info.html"> INFO</a></li>
+                 <li><a href="contact.html"> CONTACT</a></li>
+             </ul>
+          </div>
+          <div class="foot-col">
+             <h3>SOCIAL LINKS </h3>
+             <ul class="social">
+             <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+             <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+             <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+             <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+             </ul>
+ 
+          </div>
+          
+        </div> 
+        <div class="bottom-bar">
+         <p>&copy; 2023 Forge University.All rights reserved.</p>
+      </div>
+     </footer>
+ 
+ 
+ 
+
+
+
+    <!---------Javascrpt for toggle menu---------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.left = "0";
+        }
+        function hideMenu() {
+            navLinks.style.left = "-200px";
+        }
+    </script>
+</body>
+
+</html>
